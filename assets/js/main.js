@@ -9,10 +9,10 @@ const app = new Vue({
       .get('./api/discs.php')
       .then(response => {
         console.log(response);
-        //this.discs = response.data
+        this.discs = response.data
       }).catch(error => {
         console.log(error);
       })
 
   }
-}) 
+})

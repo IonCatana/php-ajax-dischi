@@ -1,8 +1,13 @@
+/* common */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  overflow: hidden;
+}
+/* Header */
 header {
   height: 100px;
   background-color: #2e3a46;
@@ -10,7 +15,7 @@ header {
 .logo {
   line-height: 100px;
 }
-
+/* Main */
 main {
   background-color: #1e2d3b;
   height: calc(100vh - 200px);
@@ -23,6 +28,7 @@ main {
   width: 90%;
   padding-top: 1rem;
 }
+/* Footer */
 footer {
   height: 100px;
   background-color: #2e3a46;

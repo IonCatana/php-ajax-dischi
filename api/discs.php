@@ -77,6 +77,8 @@ $jsonObject = '{
 ]
 }';
 
+header('Content-Type: application/json');
 $discs = json_decode($jsonObject, true);
-//echo json_decode($discs['response']);
-var_dump($discs['response']);
+//var_dump($discs['response']);
+
+echo json_encode($discs['response']);
